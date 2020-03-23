@@ -3,7 +3,6 @@ require("dotenv").config();
 var VisualRecognitionV3 = require("watson-developer-cloud/visual-recognition/v3");
 
 const apiKey = String(process.env.API_KEY);
-console.log(apiKey);
 
 var visualRecognition = new VisualRecognitionV3({
   version: "v3",
